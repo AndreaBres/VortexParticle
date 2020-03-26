@@ -5,7 +5,7 @@ module mod_output
 
   implicit none
 
-contains
+contains 
 
   subroutine write2file(time_step, psi, blade_panels, vi_on_blades, wake_panels, particles)
 
