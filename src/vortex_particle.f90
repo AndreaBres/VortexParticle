@@ -13,7 +13,7 @@ use omp_lib
 implicit none
 
 
-! Varibales definition
+! Varibles definition
 
 type(wake_panel),  dimension(:, :, :, :),    allocatable :: wake_panels
 type(segment),     dimension(:, :,:),        allocatable :: wake_segment ! Residual gamma from panel2particles transofrmations
