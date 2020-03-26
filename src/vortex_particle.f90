@@ -49,7 +49,7 @@ real(kind=8), dimension(4,3)  :: vertex
 real(kind=8), dimension(2,3)  :: vertex_segment
 integer :: intersection_particles
 logical :: check_intersection
-!real(kind=8) :: initial_radius
+
 
 ! Computational time variables
 real(kind = 8) :: start, finish, start_int, finish_int, start_iter, finish_iter
