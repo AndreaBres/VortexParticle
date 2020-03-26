@@ -1,0 +1,10 @@
+&input
+
+! Points have to be given clockwise in orer to have the outer normal exiting from the volume of calculus
+
+boundary_first_vert = -100, -100, -0.425
+boundary_second_vert = -100, 100, -0.425
+boundary_third_vert = 100, 100, -0.425
+boundary_forth_vert = 100, -100, -0.425
+
+/

@@ -1,0 +1,10 @@
+&input
+
+n_rotors = 1           ! Number of rotors
+n_blades = 4           ! Number of blades
+n_elements = 10        ! Number of elements in each blade
+n_panels = 2           ! Number of panels in the wake in the downstream direction
+
+n_boundaries = 0
+
+/

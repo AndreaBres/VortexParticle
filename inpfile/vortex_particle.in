@@ -1,0 +1,47 @@
+&input
+
+center = 0., 0., 0.,
+!center = 0., 0., 0., 0., 0., -2
+!R = 0.8, 0.8                ! Radius
+!c = 0.06, 0.06               ! Chord
+!bs = 0.25, 0.25              ! Adimensional length at which the blade start
+!e = 0.0375, 0.0375             ! Dimensional position oh the flapping hinge
+!width = 0.2, 0.2  ! Width of the hub (in z direction)
+!offset_hub = 0.2, -0.2
+!fill_percent = 0.99, 0.99  ! Percentage of the cut-off that is hub
+!Vtip = 100.53, 100.53          ! Tip velocity
+R = 0.8                ! Radius
+c = 0.06               ! Chord
+bs = 0.25              ! Adimensional length at which the blade start
+e = 0.0375             ! Dimensional position oh the flapping hinge
+width = 0.1            ! Width of the hub (in z direction)
+offset_hub = 0.05
+fill_percent = 0.99    ! Percentage of the cut-off that is hub
+Vtip = 100.53          ! Tip velocity
+rho = 1.15d0           ! Air density
+sound_speed = 340.0    ! Sound speed
+alpha_sh_deg = 0.8d0   ! AoA in degrees of the shaft with respect to the TPP
+!alpha_sh_deg = 0.0d0   ! AoA in degrees of the shaft with respect to the TPP
+!alpha_sh_deg = 0.d0, 0.d0   ! AoA in degrees of the shaft with respect to the TPP
+!theta_deg = 6.1d0, -6.1d0      ! Pitch angle of the blades (no twist)
+theta_deg = 6.1d0       ! Pitch angle of the blades (no twist)
+!theta_s_deg = 0.d0
+theta_s_deg = 2.8d0
+!theta_s_deg = 0.d0, 0.d0
+beta_deg = 0.d0        ! Cone angle in degrees (constant)
+!beta_deg = 1.37d0     ! Cone angle in degrees (constant)
+!beta_deg = 0.d0, 0.d0        ! Cone angle in degrees (constant)
+Vinf = 50, 0, 0         ! Air velocity at the infinite upstream
+Ibeta = 0.0421         ! Moment of inertia
+Sbeta = 0.0805         ! Satic moment
+!Ibeta = 0.0421, 0.0421         ! Moment of inertia
+!Sbeta = 0.0805, 0.0805         ! Satic moment
+
+tf = 0.3             ! Final time of the computation
+dt = 0.5e-3              ! Time interval
+toll_influ = 2e-2
+toll_gamma = 1e-2
+
+dyn_stall = .true.
+
+/
